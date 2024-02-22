@@ -73,7 +73,38 @@
 
         echo "<br><h2>Sequência de Escape - double quote</h2>";
         
-       
+        //Sintaxe Heredoc
+        $curso = "PHP";
+        $ano = date('Y');
+        $canal = "Curso em Vídeo";
+
+        /*echo <<< FRASE
+
+            Estou estudando 
+            $curso em $ano
+        FRASE;
+
+        */
+
+        echo <<< "FRASE"
+        <h2>Sintaxe Heredoc</h2>
+                Estou estudando $curso <br>
+                    Pelo canal $canal <br>
+                No ano de $ano
+                \u{1F596}
+        FRASE;
+        
+        
+
+        //Sintaxe Nowdoc
+
+        echo <<< 'FRASE'
+        <h2>Sintaxe Nowdoc</h2>
+        Estou estudando $curso 
+        <br>  Pelo canal $canal 
+        <br>  No ano de $ano
+         \u{1F596}
+        FRASE;
        ?>
 </body>
 </html>
