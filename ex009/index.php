@@ -20,7 +20,10 @@
         echo "Numero aleatorio gerado: $numero";
         function gerarNumeroAleatorio()
         {
-            return rand(0, 1000);
+            //rand() = 1951 - Linear Congrential Generator
+            //mt_rand() = 1997 - Mersenne Twister 4x mais rapido que o rand()
+            //random_int() gera números aleatórios criptograficamente seguros (porém é o mais lento)
+            return mt_rand(0, 1000);
         }
         ?>
         <form action="" method="get">

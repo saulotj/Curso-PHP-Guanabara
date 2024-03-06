@@ -13,11 +13,10 @@
     <main>
         <?php 
             $number = $_GET['number'] ?? 'Sem número';
-            $successor = $number + 1 ;
-            $predecessor = $number - 1;
-            echo "Número escolhido foi $number  <br> Seu sucessor é $successor <br> Seu antecessor é $predecessor";
+            
+            echo "Número escolhido foi $number  <br> Seu sucessor é ". ($number + 1) . "<br> Seu antecessor é ". ($number -1);
         ?>
-        <p><a href="javascript:history.go(-1)">Voltar para a página anterior<a></p>
+        <p><button onclick="javascript:history.go(-1)">Voltar para a página anterior<a></p>
     </main>
 </body>
 </html>
