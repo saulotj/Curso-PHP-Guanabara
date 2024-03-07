@@ -29,7 +29,7 @@
     <section>
         <h2>Resultado Final</h2>
         <?php
-        echo "Quem recebe um salário de R$$salario ganha até <strong>$qntSalario salários mínimos</strong> + R$$resto.";
+        echo "<p>Quem recebe um salário de R$ ganha até <strong>$qntSalario salários mínimos</strong> + R$.</p>";
         ?>
     </section>
 </body>

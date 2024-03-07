@@ -25,7 +25,7 @@
     <section>
         <h2>Resultado Final</h2>
         <?php 
-            echo "Analisando o <strong>número $numero</strong>, temos:";
+            echo "<p>Analisando o <strong>número $numero</strong>, temos:</p>";
             echo "<ul>
                     <li>A sua raiz quadrada é <strong>$raiz2</strong></li>
                     <li>A sua raiz cúbica é <strong>$raiz3</strong></li>

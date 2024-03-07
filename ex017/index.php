@@ -36,9 +36,9 @@
     <section>
         <h2>Cálculo das Médias</h2>
         <?php 
-            echo "Analisando os valores $valor1 e $valor2<br>";
-            echo "A <strong>Média Aritmérica</strong> entre os valores é igual a $resultadoMedia.<br>";
-            echo "A <strong>Média Aritmética Ponderada</strong> com pesos 1 e 5 é igual a $resultadoPonderado."
+            echo "<p>Analisando os valores $valor1 e $valor2<br></p>";
+            echo "<p>A <strong>Média Aritmérica</strong> entre os valores é igual a $resultadoMedia.<br></p>";
+            echo "<p>A <strong>Média Aritmética Ponderada</strong> com pesos 1 e 5 é igual a $resultadoPonderado.</p>"
         ?>
     </section>
 </body>

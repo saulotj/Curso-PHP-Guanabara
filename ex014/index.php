@@ -27,12 +27,12 @@
         <h1>Resultado da divisão</h1>
         <table>
             <tr>
-                <th><?php echo "Dividendo: <strong>$dividendo</strong>"?></th>
-                <th><?php echo "Divisor: <strong>$divisor</strong>"?></th>
+                <th><?php echo "<p>Dividendo: <strong>$dividendo</strong></p>"?></th>
+                <th><?php echo "<p>Divisor: <strong>$divisor</strong></p>"?></th>
             </tr>
             <tr>
-                <td><?php echo"Resto: <strong>$resto</strong>"?></td>
-                <td><?php echo "Resultado divisão: <strong>$resultado</strong>"?></td>
+                <td><?php echo "<p>Resto: <strong>$resto</strong></p>"?></td>
+                <td><?php echo "<p>Resultado divisão: <strong>$resultado</strong></p>"?></td>
             </tr>
         </table>
     </section>
